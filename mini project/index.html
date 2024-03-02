@@ -15,7 +15,7 @@
                 <img src="/img/logo.svg" alt="logo">
                 <div class="searchHolder">
                     <input type="text" placeholder="Find Services">
-                   <button><span class="material-symbols-outlined">
+                   <button><span class="material-symbols-outlined search">
                     search
                     </span></button>
                 </div>
@@ -28,7 +28,7 @@
                     mail
                     </span></div>
                 <div class="topProfile">
-                    <img src="img/perez.jpg" alt="profile">
+                    <img src="img/pic.png" alt="profile">
                 </div>
             </div>
         </div>
@@ -60,16 +60,182 @@
     <div class="mainBody">
       <div class="mainBodywrapper">
         <div class="leftbody">
-            <div class="top"></div>
-            <div class="mid"></div>
-            <div class="bottom"></div>
+            <div class="top">
+                <div class="tTop">
+                    <img src="img/pic.png" alt="seller profile">
+                    <h3>Gurdeep Osahan</h3>
+                    <span>UI/UX Designer</span>
+                </div>
+                <div class="tBottom">
+                    <button class="upload"><span class="material-symbols-outlined image">
+                        image
+                        </span>
+                        <span style="font-size: small;">Upload</span>
+                    </button>
+                    <button class="delete">
+                        <span class="material-symbols-outlined delete">
+                            delete
+                            </span>
+                        <span style="font-size: small;">Delete</span>
+                    </button>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="mTop">
+                    <h4>About</h4>
+                    <p>Tell about yourself in two sentences</p>
+                </div>
+                <div class="mMiddle">
+                   <p>BIO</p>
+                   <textarea name="BIO" id="BIO" placeholder="Enter Bio" required></textarea>
+                </div>
+                <div class="mBottom">
+                    <p>SKILLS</p>
+                    <div class="skillsTab">
+                        <input type="checkbox" name="firstskill" id="firstskill">
+                        <label for="firstskill">JavaScript, jQuery</label>
+                        <input type="checkbox" name="secondskill" id="secondskill">
+                        <label for="firstskill">HTML5,CSS3</label>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+               <div class="bTop">
+                  <h4>Social profiles</h4>
+                  <span>Add elsewhere links to your profiles.</span>
+                </div>
+                <div class="bBottom">
+                    <div class="socialHolder">
+                       <img src="img/iG-logo.png" class="ig" >
+                        <p>Add instagram link</p>
+                    </div>
+                    <div class="socialHolder">
+                        <img src="img/facebook.png" class="fb" >
+                        <p>Add Facebook link</p>
+                    </div>
+                    <div class="socialHolder">
+                        <img src="img/twitter.png"  class="x">
+                        <p>Add Twitter link</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="rightBody">
-             <div class="rTop"></div>
-             <div class="rBottom"></div>
+             <div class="rTop">
+                <div class="title">
+                    <h4>Edit Basic Info</h4>
+                    <span>Edit your basic info here .....</span>
+                </div>
+                <div class="mainInpHolder">
+                    <div class="leftMainInpHolder">
+                        <div class="lInpHolder">
+                            <label for="Name">Name *</label>
+                            <input type="text" placeholder="Enter your  name" name="Name" id="Name">
+                        </div>
+                        <div class="lInpHolder dropdown">
+                            <label for="DOB">Birth date*</label>
+                            <button id="DOB">
+                                <span>January</span>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                            </button>
+                            <div class="drpdwnContent">
+                                <p>Select month</p>
+                                <p>January</p>
+                                <p>Febuary</p>
+                                <p>March</p>
+                                <p>April</p>
+                                <p>May</p>
+                                <p>June</p>
+                                <p>July</p>
+                                <p>August</p>
+                                <p>September</p>
+                                <p>October</p>
+                                <p>November</p>
+                                <p>December</p>
+                            </div>
+                        </div>
+                        <div class="lInpHolder">
+                            <label for="Email">Email address*</label>
+                            <input type="text" name="Email" id="Email" placeholder="Enter your email address">
+                        </div>
+                        <div class="lInpHolder">
+                            <label for="org">Organization *</label>
+                            <input type="text" name="org" id="org" placeholder="Enter your Organization name">
+                        </div>
+                        <div class="lInpHolder">
+                            <label for="phone">Phone number *</label>
+                            <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="addNum">
+                            <span>+</span>
+                            <span>Add phone number</span>
+                        </div>
+                    </div>
+                    <div class="rightMainInpHolder">
+                        <div class="rInpHolder">
+                            <label for="username">Username *</label>
+                            <input type="text" name="username" id="username">
+                        </div>
+                        <div class="rInpHolder thegroup" style="
+                         display: flex; 
+                         align-items: center;
+                         flex-direction: row; 
+                         justify-content: space-between;
+                         margin-top: 6px;
+                         ">
+                            <button>
+                                <span>21</span>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                            </button>
+                            <button>
+                                <span>1986</span>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                            </button>
+                            <button>
+                                <span>Male</span>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                            </button>
+                        </div> 
+                        <div class="rInpHolder">
+                            <label for="location">Location *</label>
+                            <input type="text" name="location" id="location">
+                        </div>
+                        <div class="rInpHolder">
+                            <label for="website">Website *</label>
+                            <input type="text" name="website" id="website">
+                        </div>
+                        <div class="rInpHolder">
+                            <label for="lang">Prefered language *</label>
+                            <button class="lang">
+                                <span>Francias</span>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="rBottom">
+                <div class="rBtop">
+                    <h4>Experience</h4>
+                    <span>Tell about your work,job, and other experiences.</span>
+                </div>
+                <div class="rBbottom">
+                    
+                </div>
+             </div>
              <div class="buttonHolder">
-                <button>Cancel</button>
-                <button>Summit</button>
+                <button class="Cancel">Cancel</button>
+                <button class="Summit">Summit</button>
              </div>
         </div>
        </div>
